@@ -1,0 +1,10 @@
+<p>Your Amount</p>
+<div class="accountBalance">
+    {{account.balance}}
+</div>
+
+<p>insert amount</p>
+<input class="amount" type="text" />
+<!-- [(ngModel)]="amount" -->
+<button (click)="depositMoney()">Insert money</button>
+<button (click)="withdrawMoney()">Withdraw money</button>
